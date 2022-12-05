@@ -1,0 +1,132 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  
+}
+.header{
+  width: 100vw;
+  height: 8vh;
+  background-color: rgba(205, 143, 35, 0.1);
+
+}
+.navBar{
+height: 9vh;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: black;
+font-weight: bold;
+font-size: 20px;
+}
+.navBarText {
+  transition: color 0.5s ease-in-out
+}
+.navBarText:hover{
+  color:orange;
+  cursor:pointer
+}
+.main{
+
+  height: 87vh;
+  background-image: url('https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000');
+  background-size: cover;
+  background-position-y: 50%;
+  background-position-x: 70%;
+  position: absolute;
+  z-index: 2;
+ 
+}
+.firstSection{
+  width: 100vw; 
+  height: 50vh;
+  margin: 3vh;
+  margin-top: 8vh;
+  display: flex;
+  justify-content: space-around;
+  
+  opacity: inherit;
+  z-index: 1;
+  
+}
+.aboutMe{
+  width: 40vw;
+  height: 65vh;
+  backdrop-filter: blur(10px);
+  padding: 1vh 1vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid green
+}
+.aboutMeText{
+  padding: 1vh 1vw;
+  text-align: justify;
+}
+.myValues{
+  width: 30vw;
+  height: 40vh;
+  backdrop-filter: blur(10px); 
+  border-radius: 10px;
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid green
+}
+.valuesText{
+  padding: 1vh 1vw;
+  text-align: justify;
+}
+.valuesAndPassions{
+  width: 30vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.passionsSection{
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  backdrop-filter: blur(10px); 
+  border-radius: 10px;
+  padding: 1vh 1vw;
+  border: 1px solid green
+}
+.passionsText{
+  padding: 1vh 1vw;
+  text-align: justify;
+}
+
+.profilePicture{
+  width: 22vw;
+  height: 45vh;
+  margin-right: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 179, 0, 0.796);
+  background-position-x: 55%;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  z-index: 1;
+}
+.footer{
+  width: 100vw;
+  height: 6vh;
+  margin-top: 87vh;
+  background-color: rgba(205, 143, 35, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerText{
+font-size: 12px;
+}
