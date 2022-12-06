@@ -3,28 +3,6 @@
   height: 100vh;
   
 }
-.header{
-  width: 100vw;
-  height: 8vh;
-  background-color: rgba(205, 143, 35, 0.1);
-
-}
-.navBar{
-height: 9vh;
-display: flex;
-justify-content: space-around;
-align-items: center;
-color: black;
-font-weight: bold;
-font-size: 20px;
-}
-.navBarText {
-  transition: color 0.5s ease-in-out
-}
-.navBarText:hover{
-  color:orange;
-  cursor:pointer
-}
 .main{
 
   height: 87vh;
@@ -48,7 +26,45 @@ font-size: 20px;
   z-index: 1;
   
 }
+.cardTitles{
+  color: green;
+  display: block
+}
 .aboutMe{
+  background-color: transparent;
+  width: 40vw;
+  height: 65vh;
+  perspective: 1000px;
+}
+.aboutMeInner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.aboutMe:hover .aboutMeInner{
+  transform: rotateY(180deg);
+}
+.aboutMeFront, .aboutMeBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.aboutMeFront{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 0, 0.85);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+}
+.aboutMeBack{
   width: 40vw;
   height: 65vh;
   backdrop-filter: blur(10px);
@@ -58,13 +74,78 @@ font-size: 20px;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid green
+  border: 1px solid green;
+  transform: rotateY(180deg);
 }
 .aboutMeText{
   padding: 1vh 1vw;
   text-align: justify;
+  font-size: 17px;
+}
+.dev {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(224, 148, 6);
+  font-size: 17px;
+}
+.link{
+  font-weight: bold;
+  text-align: center;
+  color: rgb(224, 148, 6);
+  font-style: italic;
+  transition: color 0.5s ease-in-out
+  
+}
+.internalLinks{
+  font-weight: bold;
+  text-align: center;
+  color: rgb(224, 148, 6);
+  text-decoration: underline;
+  transition: color 0.5s ease-in-out
+}
+
+.link:hover, .internalLinks:hover{
+  color:green;
+  cursor: pointer;
 }
 .myValues{
+  background-color: transparent;
+  width: 30vw;
+  height: 40vh;
+  perspective: 1000px;
+}
+.myValuesInner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  
+}
+.myValues:hover .myValuesInner{
+  transform: rotateY(180deg);
+}
+
+.myValuesFront,
+ .myValuesBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.myValuesFront{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 0, 0.85);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+}
+.myValuesBack{
   width: 30vw;
   height: 40vh;
   backdrop-filter: blur(10px); 
@@ -74,7 +155,8 @@ font-size: 20px;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid green
+  border: 1px solid green;
+  transform: rotateY(180deg);
 }
 .valuesText{
   padding: 1vh 1vw;
@@ -88,7 +170,44 @@ font-size: 20px;
   justify-content: space-between;
   
 }
-.passionsSection{
+.myPassions{
+  background-color: transparent;
+  width: 30vw;
+  height: 20vh;
+  perspective: 1000px;
+}
+.myPassionsInner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  
+}
+.myPassions:hover .myPassionsInner{
+  transform: rotateY(180deg);
+}
+
+.myPassionsFront,
+ .myPassionsBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.myPassionsFront{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 0, 0.85);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+.myPassionsBack{
   width: 30vw;
   height: 20vh;
   display: flex;
@@ -99,14 +218,41 @@ font-size: 20px;
   backdrop-filter: blur(10px); 
   border-radius: 10px;
   padding: 1vh 1vw;
-  border: 1px solid green
+  border: 1px solid green;
+  transform: rotateY(180deg);
 }
 .passionsText{
   padding: 1vh 1vw;
   text-align: justify;
 }
-
-.profilePicture{
+.profilePictureContainer{
+  margin-right: 2vw;
+  background-color: transparent;
+  width: 22vw;
+  height: 45vh;
+  perspective: 1000px;
+}
+.profilePictureInner{
+  margin-right: 2vw;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  
+}
+.profilePictureContainer:hover .profilePictureInner{
+  transform: rotateY(360deg);
+}
+.pictureProfileFront, 
+.pictureProfileBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.profilePictureBack{
   width: 22vw;
   height: 45vh;
   margin-right: 2vw;
@@ -116,17 +262,39 @@ font-size: 20px;
   background-position-x: 55%;
   clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
   z-index: 1;
+  transform: rotateY(180deg);
+}
+.profilePictureBack{
+  width: 22vw;
+  height: 45vh;
+  margin-right: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 179, 0, 0.796);
+  background-position-x: 55%;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  z-index: 1;
+  transform: rotateY(360deg);
 }
 .footer{
   width: 100vw;
-  height: 6vh;
+  height: 5vh;
   margin-top: 87vh;
   background-color: rgba(205, 143, 35, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1vh;
 }
 
 .footerText{
-font-size: 12px;
+font-size: 14px;
+
+}
+.gitHubLink{
+  transition: color 0.3s ease-in-out
+}
+.gitHubLink:hover{
+color: orange;
+cursor: pointer;
 }

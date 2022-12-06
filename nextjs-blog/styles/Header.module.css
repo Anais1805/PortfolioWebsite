@@ -1,0 +1,22 @@
+.header{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgba(205, 143, 35, 0.1);
+  
+  }
+  .navBar{
+  height: 9vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  }
+  .navBarText {
+    transition: color 0.5s ease-in-out
+  }
+  .navBarText:hover{
+    color:orange;
+    cursor:pointer
+  }
