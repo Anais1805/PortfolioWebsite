@@ -133,9 +133,9 @@ function Home() {
             <div className={styles.profilePictureInner}>
               <div
                 className={styles.profilePictureBack}
-                style={{
-                  backgroundImage: "url(./La-CAPSULE_07-09-2022-520HDcopie.png)",
-                }}
+                // style={{
+                //   backgroundImage: "url(./La-CAPSULE_07-09-2022-520HDcopie.png)",
+                // }}
               ></div>
             </div>
           </div>

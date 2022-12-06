@@ -259,7 +259,7 @@
   margin-right: 2vw;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-image: url('./La-CAPSULE_07-09-2022-520HDcopie.png'); */
+  background-image: url('https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg');
   background-color: rgba(255, 179, 0, 0.796);
   background-position-x: 55%;
   clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
@@ -270,6 +270,7 @@
   width: 22vw;
   height: 45vh;
   margin-right: 2vw;
+  background-image: url('https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(255, 179, 0, 0.796);
