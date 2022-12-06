@@ -37,9 +37,9 @@ function Home() {
                     <span className={styles.link}>La Capsule</span>
                   </Link>{" "}
                   à Paris. Celle-ci m'a permise de monter en{" "}
-                  <span className={styles.internalLinks}>compétences</span>, de
+                  <Link href='./Skills'><span className={styles.internalLinks}>compétences</span></Link>, de
                   réaliser des{" "}
-                  <span className={styles.internalLinks}>projets</span> et de me
+                  <Link href='./Projects'> <span className={styles.internalLinks}>projets</span></Link> et de me
                   passionner pour divers langages comme React Native. A l'issue
                   de ma formation en novembre 2022, j'ai obtenu un titre RNCP de
                   niveau 6 de{" "}
@@ -131,12 +131,6 @@ function Home() {
           </div>
           <div className={styles.profilePictureContainer}>
             <div className={styles.profilePictureInner}>
-              <div
-                className={styles.profilePictureFront}
-                style={{
-                  backgroundImage: "url(/La-CAPSULE_07-09-2022-520HD.jpg)",
-                }}
-              ></div>
               <div
                 className={styles.profilePictureBack}
                 style={{

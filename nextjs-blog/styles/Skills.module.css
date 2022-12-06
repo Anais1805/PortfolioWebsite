@@ -1,0 +1,68 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+.main{
+  width: 100vw;
+  height: 87vh;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('https://c8.alamy.com/compfr/2fk1b5w/motif-d-esquisse-des-feuilles-tropicales-fond-de-feuillage-de-palmier-dore-dessine-a-la-main-motif-vectoriel-de-feuillage-de-foret-tropicale-exotique-sans-couture-2fk1b5w.jpg');
+  background-size: cover;
+}
+.hardSkillsFront{
+  width: 25vw;
+  height: 65vh;
+  border: 2px solid orange;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  background-color: rgba(250, 235, 215, 0.85);
+  transition: all 0.3s ease-out
+}
+.hardSkillsFront:hover{
+  transform: scale(1.25);
+}
+.hardSkillsBack{
+  width: 25vw;
+  height: 65vh;
+  border: 2px solid orange;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.85);
+  transition: all 0.3s ease-out
+}
+.hardSkillsBack:hover{
+  transform: scale(1.25);
+}
+.softSkills{
+  width: 25vw;
+  height: 65vh;
+  border: 2px solid orange;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.85);
+  transition: all 0.3s ease-out
+}
+.softSkills:hover{
+  transform: scale(1.25);
+}
+.softSkillsList{
+  line-height: 2;
+  list-style:circle;
+  margin: 0;
+}

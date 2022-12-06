@@ -27,7 +27,7 @@ export default function Footer() {
       ></UilGithub>
       <p className={styles.footerText}>
         {" "}
-        - Nous sommes le {weekday[today.getDay()]} {today.getDate()}/
+         {weekday[today.getDay()]} {today.getDate()}/
         {today.getMonth()}/{today.getFullYear()} - {today.getHours()}:
         {today.getMinutes()}
       </p>

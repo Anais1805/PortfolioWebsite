@@ -1,0 +1,38 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+.main {
+  width: 100Vw;
+  height: 87vh; 
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://i.pinimg.com/originals/46/de/8f/46de8f846dad6f2755b4e4a85a11370a.png');
+  background-size: cover;
+}
+.contactTitle{
+  border: 1px dotted orange;
+  padding: 2vh 2vw;
+  border-radius: 10px;
+  margin-bottom: 12vh;
+  margin-right: 10vw;
+  
+}
+.contactList{
+  font-size: 25px;
+  line-height: 3;
+}
+.contactIcons{
+  width: 3vw;
+
+}
+.links{
+  transition: color 0.3s ease-in
+}
+.links:hover{
+  color: orange;
+  cursor: pointer;
+}
