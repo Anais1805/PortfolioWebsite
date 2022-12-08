@@ -1,42 +1,34 @@
-.container{
+.main {
   width: 100vw;
-  height: 100vh;
-  
-}
-.main{
-
   height: 87vh;
-  background-image: url('https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000');
+  background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
   background-size: cover;
   background-position-y: 50%;
   background-position-x: 70%;
-  position: absolute;
-  z-index: 2;
- 
-}
-.firstSection{
-  width: 100vw; 
-  height: 50vh;
-  margin: 3vh;
-  margin-top: 8vh;
   display: flex;
-  justify-content: space-around;
-  
   opacity: inherit;
   z-index: 1;
-  
 }
-.cardTitles{
+.firstSection {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: inherit;
+  margin-left: 2.5vw;
+  z-index: 1;
+}
+.cardTitles {
   color: green;
-  display: block
+  display: block;
 }
-.aboutMe{
+.aboutMe {
   background-color: transparent;
   width: 40vw;
   height: 65vh;
   perspective: 1000px;
 }
-.aboutMeInner{
+.aboutMeInner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -44,16 +36,17 @@
   transition: transform 0.5s;
   transform-style: preserve-3d;
 }
-.aboutMe:hover .aboutMeInner{
+.aboutMe:hover .aboutMeInner {
   transform: rotateY(180deg);
 }
-.aboutMeFront, .aboutMeBack{
+.aboutMeFront,
+.aboutMeBack {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
-.aboutMeFront{
+.aboutMeFront {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 128, 0, 0.85);
@@ -64,7 +57,7 @@
   align-items: center;
   font-size: xxx-large;
 }
-.aboutMeBack{
+.aboutMeBack {
   width: 40vw;
   height: 65vh;
   backdrop-filter: blur(10px);
@@ -77,7 +70,7 @@
   border: 1px solid green;
   transform: rotateY(180deg);
 }
-.aboutMeText{
+.aboutMeText {
   padding: 1vh 1vw;
   text-align: justify;
   font-size: 17px;
@@ -88,53 +81,52 @@
   color: rgb(224, 148, 6);
   font-size: 17px;
 }
-.link{
+.link {
   font-weight: bold;
   text-align: center;
   color: rgb(224, 148, 6);
   font-style: italic;
-  transition: color 0.5s ease-in-out
-  
+  transition: color 0.5s ease-in-out;
 }
-.internalLinks{
+.internalLinks {
   font-weight: bold;
   text-align: center;
   color: rgb(224, 148, 6);
   text-decoration: underline;
-  transition: color 0.5s ease-in-out
+  transition: color 0.5s ease-in-out;
 }
 
-.link:hover, .internalLinks:hover{
-  color:green;
+.link:hover,
+.internalLinks:hover {
+  color: green;
   cursor: pointer;
 }
-.myValues{
+.myValues {
   background-color: transparent;
   width: 30vw;
   height: 40vh;
   perspective: 1000px;
 }
-.myValuesInner{
+.myValuesInner {
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.5s;
   transform-style: preserve-3d;
-  
 }
-.myValues:hover .myValuesInner{
+.myValues:hover .myValuesInner {
   transform: rotateY(180deg);
 }
 
 .myValuesFront,
- .myValuesBack{
+.myValuesBack {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
-.myValuesFront{
+.myValuesFront {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 128, 0, 0.85);
@@ -145,10 +137,10 @@
   align-items: center;
   font-size: xxx-large;
 }
-.myValuesBack{
+.myValuesBack {
   width: 30vw;
   height: 40vh;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 1vh 1vw;
   display: flex;
@@ -158,45 +150,43 @@
   border: 1px solid green;
   transform: rotateY(180deg);
 }
-.valuesText{
+.valuesText {
   padding: 1vh 1vw;
   text-align: justify;
 }
-.valuesAndPassions{
+.valuesAndPassions {
   width: 30vw;
   height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
-.myPassions{
+.myPassions {
   background-color: transparent;
   width: 30vw;
   height: 20vh;
   perspective: 1000px;
 }
-.myPassionsInner{
+.myPassionsInner {
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.5s;
   transform-style: preserve-3d;
-  
 }
-.myPassions:hover .myPassionsInner{
+.myPassions:hover .myPassionsInner {
   transform: rotateY(180deg);
 }
 
 .myPassionsFront,
- .myPassionsBack{
+.myPassionsBack {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
-.myPassionsFront{
+.myPassionsFront {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 128, 0, 0.85);
@@ -207,7 +197,7 @@
   align-items: center;
   font-size: xx-large;
 }
-.myPassionsBack{
+.myPassionsBack {
   width: 30vw;
   height: 20vh;
   display: flex;
@@ -215,62 +205,85 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 1vh 1vw;
   border: 1px solid green;
   transform: rotateY(180deg);
 }
-.passionsText{
+.passionsText {
   padding: 1vh 1vw;
   text-align: justify;
 }
-.profilePictureContainer{
+.profilePictureContainer {
   margin-right: 2vw;
   background-color: transparent;
   width: 22vw;
   height: 45vh;
   perspective: 1000px;
 }
-.profilePictureInner{
-  margin-right: 2vw;
+.profilePictureInner {
+  /* margin-right: 2vw; */
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.5s;
   transform-style: preserve-3d;
-  
 }
-.profilePictureContainer:hover .profilePictureInner{
+.profilePictureContainer:hover .profilePictureInner {
   transform: rotateY(360deg);
 }
 
-.pictureProfileBack{
+.pictureProfileBack {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
-@supports(clip-path:polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%)){
-.profilePictureBack{
+@supports (
+  clip-path:
+    polygon(
+      50% 0%,
+      83% 12%,
+      100% 43%,
+      94% 78%,
+      68% 100%,
+      32% 100%,
+      6% 78%,
+      0% 43%,
+      17% 12%
+    )
+) {
+  .profilePictureBack {
+    width: 22vw;
+    height: 45vh;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
+    background-color: rgba(255, 179, 0, 0.796);
+    background-position-x: 55%;
+    clip-path: polygon(
+      50% 0%,
+      83% 12%,
+      100% 43%,
+      94% 78%,
+      68% 100%,
+      32% 100%,
+      6% 78%,
+      0% 43%,
+      17% 12%
+    );
+    z-index: 1;
+    transform: rotateY(180deg);
+  }
+}
+.profilePictureBack {
   width: 22vw;
   height: 45vh;
-  margin-right: 2vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg');
-  background-color: rgba(255, 179, 0, 0.796);
-  background-position-x: 55%;
-  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
-  z-index: 1;
-  transform: rotateY(180deg);
-}}
-.profilePictureBack{
-  width: 22vw;
-  height: 45vh;
-  margin-right: 2vw;
-  background-image: url('https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg');
+  
+  background-image: url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(255, 179, 0, 0.796);
@@ -280,7 +293,7 @@
   transform: rotateY(360deg);
 }
 
-.footer{
+.footer {
   width: 100vw;
   height: 5vh;
   margin-top: 87vh;
@@ -291,14 +304,13 @@
   margin-bottom: 1vh;
 }
 
-.footerText{
-font-size: 14px;
-
+.footerText {
+  font-size: 14px;
 }
-.gitHubLink{
-  transition: color 0.3s ease-in-out
+.gitHubLink {
+  transition: color 0.3s ease-in-out;
 }
-.gitHubLink:hover{
-color: orange;
-cursor: pointer;
+.gitHubLink:hover {
+  color: orange;
+  cursor: pointer;
 }
