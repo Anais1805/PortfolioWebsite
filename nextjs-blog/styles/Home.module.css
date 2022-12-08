@@ -260,6 +260,7 @@
   width: 22vw;
   height: 45vh;
   perspective: 1000px;
+  margin-bottom: 15vh;
 }
 .profilePictureInner {
   /* margin-right: 2vw; */
@@ -269,16 +270,18 @@
   text-align: center;
   transition: transform 0.5s;
   transform-style: preserve-3d;
+  
 }
 .profilePictureContainer:hover .profilePictureInner {
   transform: rotateY(360deg);
 }
 
 .pictureProfileBack {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  
 }
 @supports (
   clip-path:
