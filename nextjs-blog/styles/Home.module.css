@@ -45,7 +45,9 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  
 }
+@supports(backface-visibility: hidden){
 .aboutMeFront {
   width: 100%;
   height: 100%;
@@ -56,7 +58,18 @@
   justify-content: center;
   align-items: center;
   font-size: xxx-large;
-}
+}}
+.aboutMeFront {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 0);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large}
+
 .aboutMeBack {
   width: 40vw;
   height: 65vh;
@@ -126,6 +139,7 @@
   height: 100%;
   backface-visibility: hidden;
 }
+@supports(backface-visibility: hidden){
 .myValuesFront {
   width: 100%;
   height: 100%;
@@ -136,7 +150,19 @@
   justify-content: center;
   align-items: center;
   font-size: xxx-large;
+}}
+.myValuesFront {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 0);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
 }
+
 .myValuesBack {
   width: 30vw;
   height: 40vh;
@@ -186,10 +212,23 @@
   height: 100%;
   backface-visibility: hidden;
 }
+@supports(backface-visibility: hidden){
 .myPassionsFront {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 128, 0, 0.85);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}}
+
+.myPassionsFront {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 128, 0);
   color: white;
   border-radius: 10px;
   display: flex;
