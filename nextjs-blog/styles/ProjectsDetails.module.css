@@ -1,0 +1,19 @@
+.main {
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .textContainer{
+    width: 55vw;
+    height: 80vh;
+    border: 1px solid black
+  }
+
+  .imgContainer{
+    width: 40vw;
+    height: 80vh;
+    border: 1px solid black
+  }

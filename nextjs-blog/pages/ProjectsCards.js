@@ -1,4 +1,5 @@
 import styles from '../styles/ProjectsCards.module.css'
+import Link from 'next/link'
 
 
 export default function ProjectsCards(props) {
@@ -13,7 +14,7 @@ export default function ProjectsCards(props) {
             <p className={styles.titleBack}>{props.titleBack}</p>
             <p className={styles.desc}>{props.desc}</p>
             <p className={styles.tech}><span className={styles.titleBack}>{props.technos}</span>{props.tech}</p>
-            <p className={styles.infos}>{props.infos}</p>
+            <Link href='./ProjectsDetails'><p className={styles.infos}>{props.infos}</p></Link>
           </div>
         </div>
       </div>
