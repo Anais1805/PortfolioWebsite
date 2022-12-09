@@ -42,15 +42,27 @@ function Home() {
           }}
         ></div>
         <div className={styles.devp}>
-          <UilStar />
+          <div className={styles.starBox}>
+            <div className={styles.starInner}>
+              <div className={styles.star}>
+                <UilStar style={{ width: "2vw", height: "2vw" }} />
+              </div>
+            </div>
+          </div>
           <p> {dev.toUpperCase()} </p>
-          <UilStar />
+          <div className={styles.starBox}>
+            <div className={styles.starInner}>
+              <div className={styles.star}>
+                <UilStar style={{ width: "2vw", height: "2vw" }} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.section}>
         <h1 className={styles.cardTitles}>Qui je suis</h1>
         <div className={styles.aboutMe}>
-          <p className={styles.aboutMeText}>
+          <p className={styles.Text}>
             Après avoir enseigné 4 ans en tant que professeur agrégé de
             Philosophie au sein de l'<i>Education Nationale</i>, j'ai décidé de
             tourner cette page de ma vie professionnelle et de me reconvertir
@@ -61,7 +73,7 @@ function Home() {
 
           <p className={styles.dev}>Le développement web.</p>
 
-          <p className={styles.aboutMeText}>
+          <p className={styles.Text}>
             Pour ce faire, je me suis initiée à mes premières lignes de code sur
             le site{" "}
             <Link href="https://www.codecademy.com/">
@@ -125,16 +137,20 @@ function Home() {
         </div>
       </div>
 
-      <div className={styles.section2} >
+      <div className={styles.section2}>
         <h1 className={styles.cardTitles}>Mes passions</h1>
         <div className={styles.aboutMe}>
           <div className={styles.Text}>
             <p>
               L'<span className={styles.dev}>Athlétisme</span> de demi-fond, La
-              <span className={styles.dev}> Paléographie, </span><br/><br/>
+              <span className={styles.dev}> Paléographie, </span>
+              <br />
+              <br />
               L'Histoire de l'
               <span className={styles.dev}>Alpinisme, </span>
-              Le <span className={styles.dev}>Violon, </span><br/><br/>
+              Le <span className={styles.dev}>Violon, </span>
+              <br />
+              <br />
               Les <span className={styles.dev}>Langues Orientales </span>
               ... et bien d'autres choses !
             </p>

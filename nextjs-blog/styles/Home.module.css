@@ -12,7 +12,7 @@
   align-items: center;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
   letter-spacing: 2px;
 }
@@ -62,7 +62,7 @@
   background-clip: text;
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 600;
   line-height: 2;
 }
@@ -82,6 +82,41 @@
   align-items: center;
   letter-spacing: 2px;
   font-weight: 700;
+  font-size: 35px;
+}
+.starBox{
+  width: 2vw;
+  height: 4vh;
+  background-color: transparent;
+  perspective: 1000px;
+  
+}
+.starInner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+.starBox:hover .starInner{
+  transform: rotateY(360deg);
+  color: gold
+}
+.star{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+}
+
+.starFront,
+.starBack{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  
 }
 .cardTitles {
   color: green;
@@ -95,6 +130,7 @@
   transition-duration: 1s;
   background-clip: text;
   translate: (-50%, -50%);
+  font-size: 50px
 
 }
 .cardTitles:hover{
@@ -113,8 +149,8 @@
 }
 
 .aboutMe {
-  width: 60vw;
-  height: 50vh;
+  width: 70vw;
+  height: 60vh;
   padding: 1vh 1vw;
   margin: 3vw;
   display: flex;
@@ -126,7 +162,8 @@
 .Text {
   padding: 1vh 1vw;
   text-align: justify;
-  font-size: 17px;
+  font-size: 25px;
+  line-height: 1.5;
 
   
 }
@@ -136,7 +173,7 @@
   font-weight: bold;
   text-align: center;
   color: rgb(224, 148, 6);
-  font-size: 17px;
+  font-size: 25px;
 }
 .link {
   font-weight: bold;
