@@ -1,4 +1,3 @@
-
 .header {
   width: 100vw;
   height: 8vh;
@@ -84,39 +83,36 @@
   font-weight: 700;
   font-size: 35px;
 }
-.starBox{
+.starBox {
   width: 2vw;
   height: 4vh;
   background-color: transparent;
   perspective: 1000px;
-  
 }
-.starInner{
+.starInner {
   position: relative;
   width: 100%;
   height: 100%;
   transition: transform 0.5s;
   transform-style: preserve-3d;
 }
-.starBox:hover .starInner{
+.starBox:hover .starInner {
   transform: rotateY(360deg);
-  color: gold
+  color: gold;
 }
-.star{
+.star {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-
 }
 
 .starFront,
-.starBack{
+.starBack {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  
 }
 .cardTitles {
   color: green;
@@ -130,10 +126,9 @@
   transition-duration: 1s;
   background-clip: text;
   translate: (-50%, -50%);
-  font-size: 50px
-
+  font-size: 50px;
 }
-.cardTitles:hover{
+.cardTitles:hover {
   letter-spacing: 10px;
   color: darkorange;
 }
@@ -142,10 +137,9 @@
   background-color: rgba(209, 162, 80, 0.337);
   padding-top: 2vh;
 }
-.section2{
+.section2 {
   display: flex;
   background-color: rgba(209, 162, 80, 0.337);
-  ;
 }
 
 .aboutMe {
@@ -164,10 +158,7 @@
   text-align: justify;
   font-size: 22px;
   line-height: 1.5;
-
-  
 }
-
 
 .dev {
   font-weight: bold;
@@ -195,5 +186,3 @@
   color: green;
   cursor: pointer;
 }
-
-

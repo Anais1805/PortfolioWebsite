@@ -1,4 +1,12 @@
-.main {
+.main{
+  /* background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 140, 0, 0.802) 100%
+  ) */
+  background-image: url('https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000');
+}
+  .firstContainer{
     width: 100vw;
     height: 87vh;
     display: flex;
@@ -7,13 +15,62 @@
   }
 
   .textContainer{
-    width: 55vw;
+    width: 50vw;
     height: 80vh;
-    border: 1px solid black
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter:  blur(10px);
+   
   }
 
   .imgContainer{
-    width: 40vw;
+    width: 45vw;
     height: 80vh;
-    border: 1px solid black
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
+  .imgContainer2{
+    height: 160vh;
+    margin-top: 3vw;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+  }
+  .image{
+    width: 50vw; 
+    height: 50vh;
+  }
+  .img{
+    width: 80vw;
+    
+  }
+.titles{
+  margin-top: 3vh;
+  color: darkorange;
+}
+.resume{
+  width: 50vw;
+  font-size: 20px;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+.itemList{
+  width: 40vw;
+  height: 70vh;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 5vh;
+
+}
+
+.items{
+  margin-bottom: 2vh;
+}

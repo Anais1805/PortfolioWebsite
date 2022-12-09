@@ -11,7 +11,7 @@ export default function Contact() {
     <div className={styles.container}>
       <Header />
       <div className={styles.main}>
-        <h1 className={styles.contactTitle}>Comment me contacter ? </h1>
+        <h1 className={styles.contactTitle}>Contacts</h1>
         <ul className={styles.contactList}>
           <li> <UilEnvelopeEdit className={styles.contactIcons} style={{color: 'orange'}}/> <span style={{borderBottom: '1px solid black'}}>Par mail :</span> anais.adji@orange.fr</li>
           <li> <UilLinkedin className={styles.contactIcons} style={{color: 'darkBlue'}}/> <span style={{borderBottom: '1px solid black'}}>Via mon profil LinkedIn :</span> <Link className={styles.links} href='https://www.linkedin.com/in/anais-adji/'>https://www.linkedin.com/in/anais-adji/</Link></li>

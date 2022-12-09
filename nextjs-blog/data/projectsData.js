@@ -4,6 +4,7 @@ export const projectsSchoolData = [
     titleBack: "Descriptif",
     text: `Premier projet exécuté à la Capsule, MyMails présente la partie frontend d'une boîte de messagerie dont certains éléments sont dynamisés (barre de recherche, champ de saisie, compteur, etc. )`,
     infos: "En savoir plus",
+    reff:"./ProjectsDetails",
     technos: "Technos utilisées :",
     tech: " HTML5, CSS3, JS",
   },
@@ -13,6 +14,7 @@ export const projectsSchoolData = [
     text: `Création d'un back office pour un site d'e-commerce. Fonctionnalités principales: affichage des données (GET), mise à jour (UPDATE), suppression(DELETE)`,
     technos: "Technos utilisées :",
     tech: " NodeJS, Mongoose, MongoDB",
+    reff: "./DetailsSpeakerShop",
   },
   {
     titleFront: "WeatherApp",
@@ -21,6 +23,7 @@ export const projectsSchoolData = [
     technos: "Technos utilisées :",
     tech: " HTML5, CSS3, JS, NodeJS, Express, Mongoose, MongoDB",
     infos: "En savoir plus",
+    reff: "./DetailsWeatherApp"
   },
   {
     titleFront: "MyMoviz",
@@ -29,6 +32,7 @@ export const projectsSchoolData = [
     technos: "Technos utilisées :",
     tech: " React, NextJS, CSS3, JS, NodeJS, Express, Mongoose, Vercel",
     infos: "En savoir plus",
+    reff: "./DetailsMyMoviz",
   },
   {
     titleFront: "MorningNews",
@@ -37,6 +41,7 @@ export const projectsSchoolData = [
     technos: "Technos utilisées :",
     tech: " React, NextJS, Redux, CSS3, JS, NodeJS, Express, Mongoose, Ui2d, Brcrypt, MongoDB, Vercel",
     infos: "En savoir plus",
+    reff: "./DetailsMorningNews",
   },
   {
     titleFront: "Locapic",
@@ -45,6 +50,7 @@ export const projectsSchoolData = [
     technos: "Technos utilisées :",
     tech: " React Native, Expo, CSS3, JS, NodeJS, Express, Mongoose, MongoDB, Vercel",
     infos: "En savoir plus",
+    reff: "./DetailsLocapic",
   },
   {
     titleFront: "FaceUp",
@@ -53,6 +59,7 @@ export const projectsSchoolData = [
     technos: "Technos utilisées :",
     tech: " React Native, Expo, CSS3, JS, NodeJS, Express",
     infos: "En savoir plus",
+    reff: "./DetailsFaceUp",
   },
 ];
 
@@ -64,6 +71,7 @@ export const lastProject = [
     technos: "Technos utilisées :",
     tech: " React Native, Expo, CSS3, JS, NodeJS, Express, Mongoose, MongoDB; Ui2d, Brcrypt, Vercel",
     infos: "En savoir plus",
+    reff: "./DetailsVoyageVoyage",
   },
 ];
 
@@ -75,6 +83,7 @@ export const persoProject = [
     technos: "Technos utilisées :",
     tech: " React, NextJS, CSS3, JS, Vercel",
     infos: "En savoir plus",
+    reff: "./DetailsSpeakerShop",
   },
   {
     titleFront: "Portfolio",
@@ -82,13 +91,10 @@ export const persoProject = [
     text: `Site web sur lequel vous vous trouvez ! Il a pour but de me présenter ainsi que mes projets. `,
     technos: "Technos utilisées :",
     tech: " React, NextJS, CSS3, JS, Vercel",
+    reff: "./DetailsSpeakerShop",
     
   },
 ];
 
-Descriptif: `Premier project exécuté à la Capsule, il consistait à travailler uniquement le frontend. Quelques interactions sont possibles : 
-- Rechercher un message en entrant le nom de l'expéditeur dans la barre de recherche,
-- Ajouter un message en entrant celui-ci dans l'input à gauche de l'écran et en cliquant sur le bouton 'Add',
-- Le compteur de message se met à jour à chaque nouveau message entré,
-- Le bouton en croix permet de supprimer un message, le compteur se met également à jour,
-- La date s'affiche dans le footer`;
+
+

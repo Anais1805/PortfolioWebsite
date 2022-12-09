@@ -30,7 +30,8 @@
   backface-visibility: hidden;
   background-color: rgba(255, 166, 0);
   border-color: white;
-  border-radius: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   color: white;
   display: flex;
   justify-content: center;
@@ -45,7 +46,8 @@
     backface-visibility: hidden;
     background-color: rgba(255, 166, 0, 0.85);
     border-color: white;
-    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     color: white;
     display: flex;
     justify-content: center;
@@ -60,7 +62,8 @@
     transform: rotateY(180deg);
     background-color: rgba(255, 166, 0, 0.4);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
