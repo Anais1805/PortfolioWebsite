@@ -67,7 +67,7 @@ export const lastProject = [
   {
     titleFront: "VoyageVoyage",
     titleBack: "Descriptif",
-    text: `App mobile de voyage permettant de générer des journées organisées à la demande, à partir de la saisie d'une destination, enregistrement et planification à partir d'un profil personnalisé. `,
+    text: `App mobile de voyage permettant de générer des journées organisées à la demande, à partir de la saisie d'une destination, enregistrement et planification à partir d'un profil. `,
     technos: "Technos utilisées :",
     tech: " React Native, Expo, CSS3, JS, NodeJS, Express, Mongoose, MongoDB; Ui2d, Brcrypt, Vercel",
     infos: "En savoir plus",

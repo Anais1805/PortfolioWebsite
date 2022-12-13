@@ -12,7 +12,7 @@ export default function ProjectsDetails() {
           <h2 className={styles.titles}>Résumé</h2>
           <p className={styles.resume}>
           Premier project exécuté à la Capsule, il consistait à travailler
-            uniquement le frontend. Quelques interactions sont possibles : 
+            uniquement le frontend d'une messagerie web. Quelques interactions sont possibles : 
           </p>
           <h2 className={styles.titles}>Fonctionnalités</h2>
             <ul className={styles.itemList}>

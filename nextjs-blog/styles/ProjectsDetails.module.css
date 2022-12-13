@@ -1,76 +1,99 @@
-.main{
-  /* background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 30%,
-    rgba(255, 140, 0, 0.802) 100%
-  ) */
-  background-image: url('https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000');
+.main {
+
+  background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+  background-size: cover;
 }
-  .firstContainer{
-    width: 100vw;
-    height: 87vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+.firstContainer {
+  width: 100vw;
+  height: 87vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
 
-  .textContainer{
-    width: 50vw;
-    height: 80vh;
-    /* border: 1px solid black; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter:  blur(10px);
-   
-  }
+.textContainer {
+  width: 50vw;
+  height: 80vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  margin-top: 2vh;
+  border-radius: 20px;
+  border: 1px solid transparent
+}
 
-  .imgContainer{
-    width: 45vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .imgContainer2{
-    height: 160vh;
-    margin-top: 3vw;
-    margin-bottom: 3vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-  }
-  .image{
-    width: 50vw; 
-    height: 50vh;
-  }
-  .img{
-    width: 80vw;
-    
-  }
-.titles{
+.imgContainer {
+  width: 45vw;
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2vh;
+  border-radius: 20px;
+ 
+}
+.imgContainer2 {
+  height: 160vh;
+  margin-top: 3vw;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  width: 40vw;
+  height: 39vh;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 2vw;
+}
+.img {
+  width: 80vw;
+  height: 70vh;
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+}
+.titles {
   margin-top: 3vh;
   color: darkorange;
 }
-.resume{
-  width: 50vw;
+.resume {
+  width: 45vw;
   font-size: 20px;
-  margin-top: 5vh;
-  margin-left: 3vw;
+  margin-top: 3vh;
+
+  text-align: justify;
 }
-.itemList{
+.itemList {
   width: 40vw;
-  height: 70vh;
+  height: 50vh;
   font-size: 20px;
   text-align: justify;
   margin-top: 5vh;
-
 }
 
-.items{
+.items {
   margin-bottom: 2vh;
+}
+
+.APIandDeploy {
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.API {
+  width: 20vw;
+  margin-bottom: 4vh;
+}
+.link{
+  transition: color 0.3s linear
+}
+.link:hover{
+  color: darkgreen
 }
