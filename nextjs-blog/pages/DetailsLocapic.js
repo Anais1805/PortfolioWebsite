@@ -53,7 +53,7 @@ export default function DetailsLocapic() {
           </div>
           <div className={styles.imgContainer}>
       
-    <ReactPlayer url='./Locapic.MP4' controls width={650} height={600}/>
+    <ReactPlayer url='' controls width={650} height={600}/>
             
           </div>
         </div>

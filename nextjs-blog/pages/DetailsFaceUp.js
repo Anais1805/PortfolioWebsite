@@ -44,7 +44,7 @@ export default function DetailsFaceUp() {
             </ul>
           </div>
           <div className={styles.imgContainer}>
-            <ReactPlayer url="https://res.cloudinary.com/anais1805/video/upload/v1671010211/FaceUp_lprepd.mp4" controls width={650} height={600} />
+            <ReactPlayer url="./FaceUp.MP4" controls width={650} height={635} />
           </div>
         </div>
         <div className={styles.imgContainer2} style={{height:'90vh', width: '90vw', margin: '0 auto' }}>
