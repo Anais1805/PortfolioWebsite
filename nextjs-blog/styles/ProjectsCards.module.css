@@ -3,14 +3,36 @@
     height: 30vh;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin: 2vh 2vw;
+    margin: 3vh 2vw;
   }
-
+ 
   .projects{
     width: 20vw;
     height: 30vh;
     background-color: transparent;
     perspective: 1000px;
+  }
+  @media only screen and (max-width: 490px){
+   
+    .projects{
+      width: 80vw;
+      height: 33vh;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin: 2vh 8vw;
+  
+    }
+  }
+  @media only screen and (max-width: 300px){
+   
+    .projects{
+      width: 80vw;
+      height: 33vh;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin: 2vh 15.5vw;
+  
+    }
   }
   .projectsInner{
     position: relative;
@@ -101,3 +123,4 @@
     color: white;
     cursor: pointer
 }
+

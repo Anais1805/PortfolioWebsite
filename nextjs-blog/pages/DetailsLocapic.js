@@ -53,7 +53,7 @@ export default function DetailsLocapic() {
           </div>
           <div className={styles.imgContainer}>
       
-    <ReactPlayer url='https://res.cloudinary.com/anais1805/video/upload/v1671024250/Locapic_zr1rxl.mp4' controls width={650} height={600}/>
+    <ReactPlayer className={styles.video} url='https://res.cloudinary.com/anais1805/video/upload/v1671024250/Locapic_zr1rxl.mp4' controls width={360} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}}/>
             
           </div>
         </div>

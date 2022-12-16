@@ -44,11 +44,11 @@ export default function DetailsFaceUp() {
             </ul>
           </div>
           <div className={styles.imgContainer}>
-            <ReactPlayer url="https://res.cloudinary.com/anais1805/video/upload/v1671010211/FaceUp_lprepd.mp4" controls width={650} height={635} />
+            <ReactPlayer url="https://res.cloudinary.com/anais1805/video/upload/v1671010211/FaceUp_lprepd.mp4" controls width={360} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}} />
           </div>
         </div>
-        <div className={styles.imgContainer2} style={{height:'90vh', width: '90vw', margin: '0 auto' }}>
-          <img className={styles.img} style={{height:'90vh', width: '90vw', marginBottom: '2vh'}} src="../Cloudinary.png" />
+        <div className={styles.imgContainer2} >
+          <img className={styles.img} src="../Cloudinary.png" />
           
         </div>
       </div>

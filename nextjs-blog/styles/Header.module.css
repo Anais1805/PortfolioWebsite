@@ -1,9 +1,10 @@
 .header{
-    width: 100vw;
+  width: 100vw;
     height: 8vh;
     background-color: rgba(205, 143, 35, 0.1);
   
   }
+ 
   .navBar{
   height: 8vh;
   display: flex;
@@ -13,10 +14,40 @@
   font-size: 25px;
   font-weight: 300;
   }
+  
   .navBarText {
     transition: color 0.5s ease-in-out
   }
   .navBarText:hover{
     color:orange;
     cursor:pointer
+  }
+  @media only screen and (max-width: 300px){
+    .header{
+      width: 110vw;
+      background-color: rgba(205, 143, 35, 0.1);
+    }
+    .navBar{
+      
+      /* height: 8vh; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: black;
+      font-size: 18px;
+      font-weight: 300;
+      } 
+    
+  }
+  @media only screen and (max-width: 490px){
+    .navBar{
+      
+      /* height: 8vh; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: black;
+      font-size: 20px;
+      font-weight: 300;
+      } 
   }

@@ -1,15 +1,23 @@
 
 
   .main{
+
     background-image: url('https://img.freepik.com/vecteurs-libre/fond-feuilles-feuille-metallique_79603-946.jpg?w=2000');
     background-size: cover;
-    
+    overflow: hidden;
   }
 
+  @media only screen and (min-width: 1100px){
+  .schoolProjects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+  }
   .sectionTitles{
     width: 20vw;
     height: 15vh;
     text-align: center;
+
     margin-bottom: 3vh;
     color: black;
     backdrop-filter: blur(4px);
@@ -21,13 +29,49 @@
     align-items: center;
     
   }
+}
+
+@media only screen and (max-width: 490px){
+  .main{
+    width: 100vw;
+  height: 410vh;
+    background-image: url('https://img.freepik.com/vecteurs-libre/fond-feuilles-feuille-metallique_79603-946.jpg?w=2000');
+    background-size: cover;
+    overflow: hidden;
+  }
   .schoolProjects{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
+    
 
+  }
+  .sectionTitles{
+    width: 70vw;
+    margin-top: 3vh;
+   
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    bottom: 8vh;
+    color: black;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
   }
+}
 
-
-
+@media only screen and (max-width: 300px){
+  .main{
+    width: 110vw;
+    height: 420vh;
+    background-image: url('https://img.freepik.com/vecteurs-libre/fond-feuilles-feuille-metallique_79603-946.jpg?w=2000');
+    background-size: cover;
+    overflow: hidden;
+  }
+}

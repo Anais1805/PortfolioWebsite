@@ -39,42 +39,23 @@
   .navBar {
     
     height: 8vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-weight: bold;
+   
+    
     font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    z-index: 1;
+    
   }
   .navBarText {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-weight: bold;
+    
     font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    z-index: 1;
-    transition: color 0.5s ease-in-out;
+   
   }
 }
 
 @media only screen and (max-width: 300px){
   .navBarText {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-weight: bold;
+    
     font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    z-index: 1;
-    transition: color 0.5s ease-in-out;
+  
   }
 }
 .navBarText:hover {
@@ -108,9 +89,8 @@
   
     height: 31vh;
     background-image: url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
-    background-size: cover;
-    margin: 0;
-    z-index: 3;
+    
+   
     overflow: hidden;
   }
   
@@ -124,9 +104,7 @@
   
     height: 30vh;
     background-image: url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
-    background-size: cover;
-    margin: 0;
-    z-index: 3;
+    
     overflow: hidden;
   }
   
@@ -149,13 +127,7 @@
     height: 23vh;
     padding-top: 5vh;
 
-    background: linear-gradient(
-      90deg,
-      rgba(85, 107, 47, 0.927),
-      rgb(85, 107, 47)
-    );
-    display: flex;
-    justify-content: center;
+   
   }
   .pictureText {
    
@@ -177,18 +149,9 @@
  
   .pictureText {
    
-    translate: (-50%, -50%);
-    margin: 0;
-    padding: 0;
-    transition-duration: 1s;
-    background-clip: text;
-    color: white;
-    text-align: center;
+    
     font-size: 45px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
   }
 }
 

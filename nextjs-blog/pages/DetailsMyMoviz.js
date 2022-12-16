@@ -48,11 +48,11 @@ export default function DetailsMyMoviz() {
           </div>
           <div className={styles.imgContainer}>
             <img className={styles.image} src="../MyMoviz1.png" />
-            <img className={styles.image} style={{width: '10vw', height: '40vh'}} src="../MyMoviz2.png" />
+            <img className={styles.image} style={{width: '25%', height: '50%'}} src="../MyMoviz2.png" />
           </div>
         </div>
-        <div className={styles.imgContainer2} style={{height:'90vh', width: '90vw', margin: '0 auto' }}>
-          <img className={styles.img} style={{height:'90vh', width: '90vw', marginBottom: '2vh'}} src="../MyMoviz3.png" />
+        <div className={styles.imgContainer2} >
+          <img className={styles.img} src="../MyMoviz3.png" />
           
         </div>
       </div>

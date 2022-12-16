@@ -1,13 +1,16 @@
+@media only screen and (min-width: 1100px){
 .main {
 
   background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
   background-size: cover;
 }
+
 .firstContainer {
   width: 100vw;
   height: 87vh;
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   align-items: space-around;
 }
 
@@ -43,6 +46,80 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+}
+
+@media only screen and (max-width: 490px){
+  .main {
+    /* width: 160vw; */
+      background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+      background-size: cover;
+    }
+  .firstContainer {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  .textContainer {
+    
+
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    margin-top: 2vh;
+    border-radius: 20px;
+    border: 1px solid transparent
+  }
+  .imgContainer {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2vh;
+    border-radius: 20px;
+   
+  }
+}
+@media only screen and (max-width: 300px){
+  .main {
+    width: 110vw;
+      background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+      background-size: cover;
+    }
+  .firstContainer {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  .textContainer {
+    
+    height: 160vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    margin-top: vh;
+    border-radius: 20px;
+    border: 1px solid transparent
+  }
+  .imgContainer {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2vh;
+    border-radius: 20px;
+   
+  }
 }
 .image {
   width: 40vw;
@@ -96,4 +173,110 @@
 }
 .link:hover{
   color: darkgreen
+}
+
+@media only screen and (max-width: 490px){
+  .resume{
+    width: 80%;
+    font-size: 20px;
+    margin-top: 3vh;
+    text-align: justify;
+   
+  }
+  .itemList {
+    width: 80%;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 5vh;
+    line-height: 1.5;
+  }
+  
+  .items {
+    margin-bottom: 2vh;
+  }
+  .image {
+    width: 90%;
+    height: 60%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+ 
+  }
+  .img {
+    width: 90%;
+    height: 60%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 2vh;
+    
+  
+  
+  }
+  .API {
+    width: 80%;
+    margin-bottom: 4vh;
+  }
+  .APIandDeploy {
+   margin-top: 11vh;
+   margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+}
+@media only screen and (max-width: 300px){
+  .resume{
+    width: 90%;
+   
+    font-size: 20px;
+    margin-top: 3vh;
+    text-align: justify;
+   
+  }
+  .itemList {
+    width: 80%;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 5vh;
+    line-height: 1.5;
+  }
+  
+  .items {
+    margin-bottom: 2vh;
+  }
+  .image {
+    width: 90%;
+    height: 60%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+ 
+  }
+  .img {
+    width: 90%;
+    height: 60%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 2vh;
+    
+  
+  
+  }
+  .API {
+    width: 80%;
+    margin-bottom: 4vh;
+  }
+  .APIandDeploy {
+   margin-top: 35vh;
+   margin-left: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
 }

@@ -13,6 +13,22 @@
 .footerText {
   font-size: 14px;
 }
+@media only screen and (max-width: 300px){
+  .footer {
+    width: 110vw;
+
+    /* margin-top: 87vh; */
+    background-color: rgba(205, 143, 35, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+   
+  }
+}
+.footerText {
+  font-size: 12px;
+}
 .gitHubLink {
   transition: color 0.3s ease-in-out;
 }

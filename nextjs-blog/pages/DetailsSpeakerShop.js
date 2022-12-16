@@ -65,11 +65,11 @@ export default function DetailsSpeakerShop() {
         </div>
         <div
           className={styles.imgContainer2}
-          style={{ height: "90vh", width: "90vw", margin: "0 auto" }}
+          
         >
           <img
             className={styles.img}
-            style={{ height: "90vh", width: "90vw", marginBottom: "2vh" }}
+           
             src="../SpeakerShop3.png"
           />
         </div>
