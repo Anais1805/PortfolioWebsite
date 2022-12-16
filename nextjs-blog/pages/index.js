@@ -38,7 +38,7 @@ function Home() {
             backgroundSize: "105%",
             backgroundRepeat: "no-repeat",
             backgroundPositionX: "0",
-            backgroundPositionY: "",
+            
           }}
         ></div>
         <div className={styles.devp}>
@@ -53,13 +53,14 @@ function Home() {
           <div className={styles.starBox}>
             <div className={styles.starInner}>
               <div className={styles.star}>
-                <UilStar style={{ width: "2vw", height: "2vw" }} />
+                <UilStar  style={{ width: "2vw", height: "2vw" }} />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className={styles.section}>
+        <div className={styles.subsection}>
         <h1 className={styles.cardTitles}>Qui je suis</h1>
         <div className={styles.aboutMe}>
           <p className={styles.Text}>
@@ -108,6 +109,7 @@ function Home() {
             .
           </p>
         </div>
+        </div>
       </div>
 
       <div className={styles.section}>
@@ -140,7 +142,7 @@ function Home() {
       <div className={styles.section2}>
         <h1 className={styles.cardTitles}>Mes passions</h1>
         <div className={styles.aboutMe}>
-          <div className={styles.Text}>
+          <div className={styles.Text2}>
             <p>
               L'<span className={styles.dev}>Athlétisme</span> de demi-fond, La
               <span className={styles.dev}> Paléographie, </span>
