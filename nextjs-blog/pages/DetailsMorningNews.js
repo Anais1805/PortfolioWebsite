@@ -30,7 +30,11 @@ export default function DetailsMorningNews() {
               </li>
               <li className={styles.items}>
                 {" "}
-                - S'inscrire et se connecter (requêtes POST),{" "}
+                - S'inscrire (requêtes POST),{" "}
+              </li>
+              <li className={styles.items}>
+                {" "}
+                - Se connecter avec son profil(requêtes POST),{" "}
               </li>
               <li className={styles.items}>
                 {" "}
@@ -39,20 +43,27 @@ export default function DetailsMorningNews() {
               </li>
               <li className={styles.items}>
                 {" "}
-                - Masquer ou voir certains articles au clic sur l'icône oeil.{" "}
+                - Masquer ou voir certains articles au clic sur l'icône 'oeil'.{" "}
               </li>
+              <li className={styles.items}>
+                {" "}
+                - Se déconnecter.{" "}
+              </li>
+              
+               
+             
             </ul>
             <div className={styles.APIandDeploy}>
-              <div className={styles.API}>
-                <h2 className={styles.titles} style={{ marginTop: "0vw" }}>
+              <div className={styles.API} style={{paddingTop: '0vh'}}>
+                <h2 className={styles.titles}  >
                   API utilisée
                 </h2>
                 <Link className={styles.link} href="https://newsapi.org">
                   https://newsapi.org
                 </Link>
               </div>
-              <div className={styles.API}>
-                <h2 className={styles.titles} style={{ marginTop: "0vw" }}>
+              <div className={styles.titlesDeploy} >
+                <h2 className={styles.titles}>
                   Site déployé
                 </h2>
                 <Link

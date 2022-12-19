@@ -1,4 +1,4 @@
-import styles from "../styles/ProjectsDetails.module.css";
+import styles from "../styles/ProjectsDetailsVoyageVoyage.module.css";
 import Header from "./Header";
 import Footer from "./Footer";
 import Link from "next/link";
@@ -55,7 +55,7 @@ export default function DetailsVoyageVoyage() {
               className={styles.API}
               style={{ textAlign: "center", marginBottom: "6vh" }}
             >
-              <h2 className={styles.titles} style={{ marginTop: "0vw" }}>
+              <h2 className={styles.titles} style={{ marginTop: "20vh" }}>
                 API utilisée
               </h2>
               <Link
@@ -70,7 +70,7 @@ export default function DetailsVoyageVoyage() {
             <ReactPlayer
               url="https://res.cloudinary.com/anais1805/video/upload/v1671011457/Voyage2c-1_dtml44.mov"
               controls
-              width={360} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}}
+              width={305} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}}
             />
           </div>
         </div>

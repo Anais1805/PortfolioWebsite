@@ -9,7 +9,7 @@ export default function DetailsSpeakerShop() {
       <Header />
       <div className={styles.main}>
         <div className={styles.firstContainer} >
-          <div className={styles.textContainer} style={{'height': '50vh'}}>
+          <div className={styles.textContainer} style={{'height': '60vh'}}>
             <h2 className={styles.titles}>Résumé</h2>
             <p className={styles.resume}>
               SpeakerShop est une application React web frontend qui reproduit
@@ -42,13 +42,13 @@ export default function DetailsSpeakerShop() {
               </li>
             </ul> */}
               <div
-              className={styles.API}
+              className={styles.titlesDeploy}
               style={{ textAlign: "center", marginBottom: "6vh" }}
             >
-              <h2 className={styles.titles} style={{ marginTop: "0vw", marginBottom: '2vh' }}>
+              <h2 className={styles.titles} style={{ marginTop: "-2vw", marginBottom: '2vh' }}>
                 Site déployé
               </h2>
-              <Link style={{fontSize: '19px'}} className={styles.link} href="https://speaker-shop-react-front-ckdg.vercel.app/">
+              <Link style={{fontSize: '18px'}} className={styles.link} href="https://speaker-shop-react-front-ckdg.vercel.app/">
               https://speaker-shop-react-front-ckdg.vercel.app/
               </Link>
             </div>

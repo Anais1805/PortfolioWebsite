@@ -12,7 +12,7 @@ export default function DetailsFaceUp() {
       <Header />
       <div className={styles.main}>
         <div className={styles.firstContainer}>
-          <div className={styles.textContainer}>
+          <div className={styles.textContainer} style={{height: '130vh'}}>
             <h2 className={styles.titles}>Résumé</h2>
             <p className={styles.resume} >
               FaceUp est une app mobile développée en React Native. Elle de se
@@ -44,7 +44,7 @@ export default function DetailsFaceUp() {
             </ul>
           </div>
           <div className={styles.imgContainer}>
-            <ReactPlayer url="https://res.cloudinary.com/anais1805/video/upload/v1671010211/FaceUp_lprepd.mp4" controls width={360} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}} />
+            <ReactPlayer url="https://res.cloudinary.com/anais1805/video/upload/v1671010211/FaceUp_lprepd.mp4" controls width={305} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}} />
           </div>
         </div>
         <div className={styles.imgContainer2} >

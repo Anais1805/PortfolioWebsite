@@ -43,7 +43,7 @@ export default function DetailsLocapic() {
               className={styles.API}
               style={{ textAlign: "center", marginBottom: "6vh" }}
             >
-              <h2 className={styles.titles} style={{ marginTop: "0vw" }}>
+              <h2 className={styles.titles} style={{ marginTop: "-10vw" }}>
                 API utilisée
               </h2>
               <Link className={styles.link} href="https://adresse.data.gouv.fr/api-doc/adresse">
@@ -53,7 +53,7 @@ export default function DetailsLocapic() {
           </div>
           <div className={styles.imgContainer}>
       
-    <ReactPlayer className={styles.video} url='https://res.cloudinary.com/anais1805/video/upload/v1671024250/Locapic_zr1rxl.mp4' controls width={360} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}}/>
+    <ReactPlayer className={styles.video} url='https://res.cloudinary.com/anais1805/video/upload/v1671024250/Locapic_zr1rxl.mp4' controls width={305} height={500} style={{marginTop: '2vh', marginBottom: '2vh', marginLeft: 'auto', marginRight: 'auto'}}/>
             
           </div>
         </div>

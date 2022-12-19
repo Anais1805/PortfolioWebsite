@@ -1,124 +1,121 @@
-@media only screen and (min-width: 1100px){
-.main {
+@media only screen and (min-width: 1100px) {
+  .main {
+    background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+    background-size: cover;
+  }
 
-  background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
-  background-size: cover;
-}
+  .firstContainer {
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: space-around;
+  }
 
-.firstContainer {
-  width: 100vw;
-  height: 87vh;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: space-around;
-}
+  .textContainer {
+    width: 50vw;
+    height: 80vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    margin-top: 2vh;
+    border-radius: 20px;
+    border: 1px solid transparent;
+  }
 
-.textContainer {
-  width: 50vw;
-  height: 80vh;
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(10px);
-  margin-top: 2vh;
-  border-radius: 20px;
-  border: 1px solid transparent
-}
+  .imgContainer {
+    width: 45vw;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2vh;
+    border-radius: 20px;
+  }
+  .imgContainer2 {
+    height: 160vh;
+    margin-top: 3vw;
 
-.imgContainer {
-  width: 45vw;
-  height: 83vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-top: 2vh;
-  border-radius: 20px;
- 
-}
-.imgContainer2 {
-  height: 160vh;
-  margin-top: 3vw;
- 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 490px) {
   .main {
     /* width: 160vw; */
-      background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
-      background-size: cover;
-    }
+    background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+    background-size: cover;
+  }
   .firstContainer {
-   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: space-around;
   }
   .textContainer {
-    
-
+    height: 130vh;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    font-size: 21px;
     align-items: center;
     backdrop-filter: blur(10px);
     margin-top: 2vh;
     border-radius: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
   }
   .imgContainer {
-   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 2vh;
     border-radius: 20px;
-   
   }
 }
-@media only screen and (max-width: 300px){
+
+@media only screen and (max-width: 413px) {
+  .textContainer {
+    height: 140vh;
+  }
+}
+
+@media only screen and (max-width: 300px) {
   .main {
     width: 110vw;
-      background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
-      background-size: cover;
-    }
+    background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+    background-size: cover;
+  }
   .firstContainer {
-   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: space-around;
   }
   .textContainer {
-    
-    height: 160vh;
+    height: 175vh;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
     backdrop-filter: blur(10px);
-    margin-top: vh;
+
     border-radius: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
   }
   .imgContainer {
-   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 2vh;
     border-radius: 20px;
-   
   }
 }
 .image {
@@ -133,7 +130,6 @@
   height: 70vh;
   border: 1px solid transparent;
   border-radius: 5px;
-
 }
 .titles {
   margin-top: 3vh;
@@ -168,29 +164,32 @@
   width: 20vw;
   margin-bottom: 4vh;
 }
-.link{
-  transition: color 0.3s linear
+.titlesDeploy {
+  width: 20vw;
+  margin-bottom: 4vh;
 }
-.link:hover{
-  color: darkgreen
+.link {
+  transition: color 0.3s linear;
+}
+.link:hover {
+  color: darkgreen;
 }
 
-@media only screen and (max-width: 490px){
-  .resume{
+@media only screen and (max-width: 490px) {
+  .resume {
     width: 80%;
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 3vh;
     text-align: justify;
-   
   }
   .itemList {
     width: 80%;
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
     margin-top: 5vh;
     line-height: 1.5;
   }
-  
+
   .items {
     margin-bottom: 2vh;
   }
@@ -201,7 +200,6 @@
     border-radius: 5px;
     margin-left: 2vh;
     margin-bottom: 1vh;
- 
   }
   .img {
     width: 90%;
@@ -209,32 +207,67 @@
     border: 1px solid transparent;
     border-radius: 5px;
     margin-left: 2vh;
-    
-  
-  
   }
   .API {
     width: 80%;
-    margin-bottom: 4vh;
+    height: 0vh;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    font-size: 20px;
   }
   .APIandDeploy {
-   margin-top: 11vh;
-   margin-left: 10vw;
+    font-size: 22px;
+    margin-top: 5vh;
+    margin-left: 18vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
   }
- 
+  .titlesDeploy {
+    width: 80%;
+    height: 0vh;
+    margin-top: 1vh;
+  }
 }
-@media only screen and (max-width: 300px){
-  .resume{
+@media only screen and (max-width: 413px) {
+  .resume {
     width: 90%;
-   
+
+    font-size: 18px;
+    margin-top: 4vh;
+    text-align: justify;
+  }
+  .itemList {
+    width: 80%;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 5vh;
+    line-height: 1.5;
+  }
+  .API {
+    width: 80%;
+    height: 10vh;
+    padding-top: 8vh;
+
+    margin-bottom: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .titlesDeploy {
+    width: 80%;
+
+    margin-bottom: 0vh;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .resume {
+    width: 90%;
+
     font-size: 20px;
     margin-top: 3vh;
     text-align: justify;
-   
   }
   .itemList {
     width: 80%;
@@ -243,7 +276,7 @@
     margin-top: 5vh;
     line-height: 1.5;
   }
-  
+
   .items {
     margin-bottom: 2vh;
   }
@@ -254,7 +287,6 @@
     border-radius: 5px;
     margin-left: 2vh;
     margin-bottom: 1vh;
- 
   }
   .img {
     width: 90%;
@@ -262,21 +294,26 @@
     border: 1px solid transparent;
     border-radius: 5px;
     margin-left: 2vh;
-    
-  
-  
   }
   .API {
     width: 80%;
     margin-bottom: 4vh;
+    margin-top: 37vh;
+    font-size: 18px;
+   
   }
   .APIandDeploy {
-   margin-top: 35vh;
-   margin-left: 8vw;
+    margin-top: -6vh;
+   
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-align: center;
+
+    /* align-items: center; */
   }
- 
+  .titlesDeploy {
+    margin-top: 4vh;
+  }
 }

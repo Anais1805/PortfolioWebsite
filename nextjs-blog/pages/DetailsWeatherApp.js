@@ -41,7 +41,7 @@ export default function DetailsWeatherApp() {
               </li>
             </ul>
    
-<div className={styles.API} style={{textAlign: 'center', marginBottom: '6vh'}}>
+<div className={styles.API} style={{textAlign: 'center', marginBottom: '6vh'}} >
             <h2 className={styles.titles} style={{marginTop: '0vw'}}>API utilisée</h2>
             <Link className={styles.link} href='https://openweathermap.org/'>https://openweathermap.org</Link>
             </div>
