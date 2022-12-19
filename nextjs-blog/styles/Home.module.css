@@ -317,10 +317,11 @@
 }
 @media only screen and (max-width: 480px) {
   .devp {
-    height: 20vh;
+    /* height: 20vh; */
     text-align: center;
     background-color: rgb(247, 138, 4);
     margin: 0;
+    
     padding-top: 1vh;
     padding-bottom: 1vh;
     padding-left: 1vw;
