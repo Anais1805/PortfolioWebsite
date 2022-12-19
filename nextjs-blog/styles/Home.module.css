@@ -1,24 +1,4 @@
-@media only screen and (min-width: 1000px) {
-  .header {
-    width: 100vw;
-    height: 8vh;
-    position: absolute;
-    z-index: 1;
-  }
-
-  .navBar {
-    height: 8vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    z-index: 1;
-  }
-}
-@media only screen and (max-width: 920px) {
+@media only screen and (min-width: 1100px) {
   .header {
     width: 100vw;
     height: 8vh;
@@ -26,37 +6,68 @@
     z-index: 1;
     margin-top: 2vh;
   }
-
   .navBar {
+    width: 100vw;
     height: 8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: black;
-    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
     font-weight: 300;
     letter-spacing: 2px;
-    z-index: 1;
   }
 }
 
-.navBar {
-  width: 110vw;
-  height: 8vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
-  font-weight: 300;
-  letter-spacing: 2px;
-}
-.navBarText {
-  transition: color 0.5s ease-in-out;
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .header {
+    width: 110vw;
+    height: 8vh;
+    position: absolute;
+    z-index: 1;
+    margin-top: 2vh;
+  }
+  .navBar {
+    width: 110vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  .navBarText {
+    transition: color 0.5s ease-in-out;
+  }
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (min-width: 500px) and (max-width: 1100px), (orientation: portrait) {
+  .header {
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1vh;
+  }
+  .navBar {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 490px) and (orientation: portrait) {
   .header {
     width: 110vw;
     height: 8vh;
@@ -65,18 +76,7 @@
   }
 
   .navBar {
-    height: 8vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    z-index: 1;
-  }
-
-  .navBar {
+    width: 100%;
     height: 8vh;
     display: flex;
     justify-content: space-around;
@@ -94,9 +94,9 @@
 }
 
 @media only screen and (max-width: 300px) {
-  .container {
+  /* .container {
     width: 110vw;
-  }
+  } */
 
   .header {
     width: 110vw;
@@ -124,24 +124,28 @@
   color: orange;
   cursor: pointer;
 }
-.profilePictureInner {
-  display: flex;
-  width: 110vw;
+
+@media only screen and (min-width: 1100px) {
+  .profilePictureInner {
+    display: flex;
+    width: 100vw;
+  }
+
+  .profilePictureBack {
+    width: 100vw;
+    height: 75vh;
+
+    margin: 0;
+    background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0) 50%,
+        darkolivegreen 80%
+      ),
+      url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
+    overflow: hidden;
+  }
 }
 
-.profilePictureBack {
-  width: 110vw;
-  height: 85vh;
-
-  margin: 0;
-  background: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0) 40%,
-      darkolivegreen 100%
-    ),
-    url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
-  overflow: hidden;
-}
 @media only screen and (max-width: 920px) and (orientation: landscape) {
   .navBarText:hover {
     color: orange;
@@ -149,12 +153,12 @@
   }
   .profilePictureInner {
     display: flex;
-    
+    width: 110vw;
   }
 
   .profilePictureBack {
-    width: 100vw;
-    height: 85vh;
+    width: 110vw;
+    height: 80vh;
 
     margin: 0;
     background: linear-gradient(
@@ -166,9 +170,59 @@
     overflow: hidden;
   }
 }
-@media only screen and (max-width: 490px) {
+
+
+@media only screen and (min-width: 500px) and (max-width: 1100px), (orientation: portrait) {
+  .navBarText:hover {
+    color: orange;
+    cursor: pointer;
+  }
   .profilePictureInner {
-    
+    display: flex;
+    width: 100vw;
+  }
+
+  .profilePictureBack {
+    width: 110vw;
+    height: 29vh;
+
+    margin: 0;
+    background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0) 40%,
+        darkolivegreen 100%
+      ),
+      url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1100px){
+  .navBarText:hover {
+    color: orange;
+    cursor: pointer;
+  }
+  .profilePictureInner {
+    display: flex;
+    width: 100vw;
+  }
+
+  .profilePictureBack {
+    width: 110vw;
+    height: 50vh;
+
+    margin: 0;
+    background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0) 40%,
+        darkolivegreen 100%
+      ),
+      url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 490px) and (orientation: portrait) {
+  .profilePictureInner {
+    width: 110vw;
     display: flex;
     flex-direction: column;
     background: linear-gradient(
@@ -178,7 +232,7 @@
     );
   }
   .profilePictureBack {
-    height: 50vh;
+    height: 38vh;
     background-image: url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
     display: flex;
 
@@ -197,18 +251,17 @@
     );
   }
   .profilePictureBack {
-    width: 110vw;
-    height: 50vh;
+    width: 100vw;
+    height: 38vh;
     background-image: url("https://res.cloudinary.com/anais1805/image/upload/v1670345207/LA-CAPSULE_07-09-2022-520HD_s2eq8r.jpg");
 
     overflow: hidden;
   }
 }
-
-@media only screen and (max-width: 920px) and (orientation: landscape) {
+@media only screen and (min-width: 1100px) {
   .leftPicture {
-    width: 100vw;
-    height: 85vh;
+    width: 50vw;
+    height: 75vh;
     background: linear-gradient(
       90deg,
       rgba(85, 107, 47, 0.927),
@@ -219,7 +272,37 @@
     /* width: 50vw; */
     translate: (-50%, -50%);
     margin: 0;
-    margin-top: 20vh;
+    margin-top: 28vh;
+
+    padding: 0;
+    transition-duration: 1s;
+    background-clip: text;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0;
+  }
+}
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .leftPicture {
+    width: 100vw;
+    height: 80vh;
+    background: linear-gradient(
+      90deg,
+      rgba(85, 107, 47, 0.927),
+      rgb(85, 107, 47)
+    );
+  }
+  .pictureText {
+    /* width: 50vw; */
+    translate: (-50%, -50%);
+    margin: 0;
+    margin-top: 28vh;
 
     padding: 0;
     transition-duration: 1s;
@@ -235,7 +318,67 @@
     letter-spacing: 0;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 500px) and (max-width: 1100px), (orientation: portrait) {
+  .leftPicture {
+    width: 100vw;
+    height: 29vh;
+    background: linear-gradient(
+      90deg,
+      rgba(85, 107, 47, 0.927),
+      rgb(85, 107, 47)
+    );
+  }
+  .pictureText {
+    width: 50vw;
+    translate: (-50%, -50%);
+    margin: 0;
+    margin-top: 15vh;
+
+    padding: 0;
+    transition-duration: 1s;
+    background-clip: text;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1100px){
+  .leftPicture {
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(
+      90deg,
+      rgba(85, 107, 47, 0.927),
+      rgb(85, 107, 47)
+    );
+  }
+  .pictureText {
+    width: 50vw;
+    translate: (-50%, -50%);
+    margin: 0;
+    margin-top: 25vh;
+
+    padding: 0;
+    transition-duration: 1s;
+    background-clip: text;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0;
+  }
+}
+@media only screen and (max-width: 490px) and (orientation: portrait) {
   .leftPicture {
     width: 110vw;
     height: 30vh;
@@ -260,6 +403,7 @@
 @media only screen and (max-width: 300px) {
   .pictureText {
     font-size: 45px;
+    margin-top: 5vh;
   }
   .leftPicture {
     width: 110vw;
@@ -271,39 +415,39 @@
     );
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 }
 
 .pictureText:hover {
   letter-spacing: 10px;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) and (orientation: landscape) {
   .devp {
     width: 100vw;
-    height: 7vh;
+    height: 12vh;
     background-color: rgb(247, 138, 4);
     margin: 0;
     position: absolute;
-    bottom: 12vh;
+    bottom: 16vh;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 35px;
     overflow: hidden;
   }
 }
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 920px) and (orientation: landscape) {
   .devp {
     width: 110vw;
     height: 20vh;
     background-color: rgb(247, 138, 4);
     margin: 0;
     position: absolute;
-    bottom: 12vh;
+    bottom: 16vh;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -315,18 +459,61 @@
     text-align: center;
   }
 }
-@media only screen and (max-width: 490px) {
+@media only screen and (min-width: 500px) and (max-width: 1100px), (orientation: portrait) {
   .devp {
-    /* height: 20vh; */
+    width: 100vw;
+    height: 10vh;
     text-align: center;
     background-color: rgb(247, 138, 4);
     margin: 0;
-    
+    position: absolute;
     padding-top: 1vh;
     padding-bottom: 1vh;
     padding-left: 1vw;
     padding-right: 1vw;
-    bottom: 10vh;
+    bottom: 62vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1100px){
+  .devp {
+    height: 20vh;
+    text-align: center;
+    background-color: rgb(247, 138, 4);
+    margin: 0;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    bottom: 30vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .devp {
+    height: 25vh;
+    text-align: center;
+    background-color: rgb(247, 138, 4);
+    margin: 0;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    bottom: 15vh;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -343,11 +530,12 @@
     text-align: center;
     background-color: rgb(247, 138, 4);
     margin: 0;
+
     padding-top: 1vh;
     padding-bottom: 1vh;
     padding-left: 1vw;
     padding-right: 1vw;
-    bottom: 20vh;
+    bottom: 16vh;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -381,11 +569,23 @@
   height: 100%;
   backface-visibility: hidden;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 1100px) {
+  .star {
+    /* margin-left: 3vw; */
+    margin-top: 2.5vh;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1100px),(orientation: portrait) {
   .star {
     margin-top: 2.5vh;
   }
 }
+@media only screen and (max-width: 490px) {
+  .star {
+    margin-top: 2.5vh;
+  }
+}
+
 
 .starFront,
 .starBack {
@@ -395,7 +595,7 @@
   backface-visibility: hidden;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .cardTitles {
     color: green;
     display: inline;
@@ -409,6 +609,7 @@
     background-clip: text;
     translate: (-50%, -50%);
     font-size: 50px;
+    border-right: 1px solid green;
   }
 }
 
@@ -417,16 +618,22 @@
   color: darkorange;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .section {
     display: flex;
+
     background-color: rgba(209, 162, 80, 0.337);
     padding-top: 2vh;
   }
   .section2 {
     display: flex;
     background-color: rgba(209, 162, 80, 0.337);
-    border: 1px solid green;
+  }
+  .subsection {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
   }
 
   .aboutMe {
@@ -434,13 +641,12 @@
     height: 60vh;
     padding: 1vh 1vw;
     margin: 3vw;
-    display: flex;
-    flex-direction: column;
+
     justify-content: space-around;
     align-items: center;
   }
   .Text {
-    padding: 1vh 1vw;
+    padding: 2vh 1vw;
     text-align: justify;
     font-size: 22px;
     line-height: 1.5;
@@ -448,7 +654,7 @@
   .Text2 {
     padding: 2vh 6vw;
     text-align: justify;
-    font-size: 15px;
+    font-size: 22px;
     line-height: 1.5;
   }
   .dev {
@@ -458,7 +664,105 @@
     font-size: 25px;
   }
 }
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .cardTitles {
+    width: 110vw;
+    color: green;
+    /* display: inline;  */
+    margin-top: 8vh;
+    margin-bottom: 0vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 3vw;
+    text-align: center;
+    transition-duration: 1s;
+    background-clip: text;
+    translate: (-50%, -50%);
+    font-size: 45px;
+  }
+  .Text {
+    width: 110vw;
+    /* padding: 4vh 6vw; */
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .Text2 {
+    width: 110vw;
+    padding: 2vh 10vw;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .dev {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(224, 148, 6);
+    font-size: 18px;
+  }
+  .section2 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1100px), (orientation: portrait) {
+  .cardTitles {
+    width: 100vw;
+    color: green;
+    /* display: inline; */
+    margin-top: 8vh;
+    margin-bottom: 0vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 3vw;
+    text-align: center;
+    transition-duration: 1s;
+    background-clip: text;
+    translate: (-50%, -50%);
+    font-size: 45px;
+  }
+  .Text {
+    width: 100vw;
+    padding: 2vh 6vw;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .Text2 {
+    width: 100vw;
+    padding: 2vh 10vw;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 2vh;
+  }
+  .dev {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(224, 148, 6);
+    font-size: 18px;
+  }
+  .section2 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1100px){
+  .cardTitles {
+    width: 100vw;
+    color: green;
+    /* display: inline; */
+    margin-top: 20vh;
+    margin-bottom: 0vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 3vw;
+    text-align: center;
+    transition-duration: 1s;
+    background-clip: text;
+    translate: (-50%, -50%);
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 490px) {
   .cardTitles {
     width: 110vw;
     color: green;
@@ -483,43 +787,6 @@
   }
   .Text2 {
     width: 110vw;
-    padding: 2vh 10vw;
-    text-align: center;
-    font-size: 15px;
-    line-height: 1.5;
-  }
-  .dev {
-    font-weight: bold;
-    text-align: center;
-    color: rgb(224, 148, 6);
-    font-size: 18px;
-  }
-  .section2 {
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .cardTitles {
-    color: green;
-    /* display: inline; */
-    margin-top: 12vh;
-    margin-bottom: 0vw;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    padding-right: 3vw;
-    text-align: center;
-    transition-duration: 1s;
-    background-clip: text;
-    translate: (-50%, -50%);
-    font-size: 45px;
-  }
-  .Text {
-    padding: 2vh 6vw;
-    text-align: justify;
-    font-size: 15px;
-    line-height: 1.5;
-  }
-  .Text2 {
     padding: 2vh 10vw;
     text-align: center;
     font-size: 15px;

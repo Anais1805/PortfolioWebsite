@@ -35,7 +35,7 @@ function Home() {
         <div
           className={styles.profilePictureBack}
           style={{
-            backgroundSize: "115%",
+            backgroundSize: "125%",
             backgroundRepeat: "no-repeat",
             backgroundPositionX: "50%",
             
