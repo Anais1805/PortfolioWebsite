@@ -29,15 +29,15 @@ function Home() {
         <div className={styles.leftPicture}>
           <h1 className={styles.pictureText}>
             Anaïs <br />
-            <span style={{ marginLeft: "10vw" }}>Adji</span>
+            <span style={{ marginLeft: "5vw" }}>Adji</span>
           </h1>
         </div>
         <div
           className={styles.profilePictureBack}
           style={{
-            backgroundSize: "105%",
+            backgroundSize: "115%",
             backgroundRepeat: "no-repeat",
-            backgroundPositionX: "0",
+            backgroundPositionX: "50%",
             
           }}
         ></div>

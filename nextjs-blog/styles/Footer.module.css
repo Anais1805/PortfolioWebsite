@@ -36,3 +36,16 @@
   color: orange;
   cursor: pointer;
 }
+@media only screen and (max-width: 920px) and (orientation: landscape){
+  .footer {
+    width: 110vw;
+
+    /* margin-top: 87vh; */
+    background-color: rgba(205, 143, 35, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+   
+  }
+}
