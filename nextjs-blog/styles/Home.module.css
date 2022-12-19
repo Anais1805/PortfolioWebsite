@@ -380,7 +380,7 @@
 }
 @media only screen and (max-width: 490px) and (orientation: portrait) {
   .leftPicture {
-    width: 110vw;
+    width: 100vw;
     height: 30vh;
     padding-top: 5vh;
   }
@@ -388,6 +388,7 @@
     translate: (-50%, -50%);
     margin: 0;
     margin-top: 9vh;
+    margin-left: 30vw;
     padding: 0;
     transition-duration: 1s;
     background-clip: text;
@@ -398,6 +399,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  
   }
 }
 @media only screen and (max-width: 300px) {
@@ -504,7 +506,8 @@
 }
 @media only screen and (max-width: 490px) {
   .devp {
-    height: 25vh;
+    width: 110vw;
+    height: 20vh;
     text-align: center;
     background-color: rgb(247, 138, 4);
     margin: 0;
@@ -769,7 +772,7 @@
     /* display: inline; */
     margin-top: 8vh;
     margin-bottom: 0vw;
-    padding-top: 3vh;
+    padding-top: 10vh;
     padding-bottom: 3vh;
     padding-right: 3vw;
     text-align: center;
