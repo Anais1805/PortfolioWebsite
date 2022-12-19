@@ -115,8 +115,8 @@
     line-height: 2;
     background-color: rgba(250, 235, 215, 0.85);
     transition: all 0.3s ease-out;
-    margin-top: 2vh;
-  margin-bottom: 2vh;
+    margin-top: 10vh;
+  margin-bottom: 10vh;
   }
   .hardSkillsBack{
     width: 70vw;
@@ -131,7 +131,7 @@
     background-color: rgba(250, 235, 215, 0.85);
     transition: all 0.3s ease-out;
 
-  margin-bottom: 2vh;
+  margin-bottom: 10vh;
   }
   .softSkills{
     width: 70vw;
@@ -145,7 +145,7 @@
     align-items: center;
     background-color: rgba(250, 235, 215, 0.85);
     transition: all 0.3s ease-out;
-    margin-bottom: 2vh;
+    margin-bottom: 10vh;
   }
   .softSkillsList{
     line-height: 2;
@@ -167,8 +167,8 @@
     line-height: 2;
     background-color: rgba(250, 235, 215, 0.85);
     transition: all 0.3s ease-out;
-    margin-top: 2vh;
-  margin-bottom: 2vh;
+    margin-top: 12vh;
+  margin-bottom: 12vh;
   }
   .hardSkillsBack{
     width: 80vw;
@@ -183,7 +183,7 @@
     background-color: rgba(250, 235, 215, 0.85);
     transition: all 0.3s ease-out;
 
-  margin-bottom: 2vh;
+  margin-bottom: 12vh;
   }
   .softSkills{
     width: 80vw;
@@ -197,7 +197,7 @@
     align-items: center;
     background-color: rgba(250, 235, 215, 0.85);
     transition: all 0.3s ease-out;
-    margin-bottom: 2vh;
+    margin-bottom: 12vh;
   }
   .softSkillsList{
     line-height: 2;
