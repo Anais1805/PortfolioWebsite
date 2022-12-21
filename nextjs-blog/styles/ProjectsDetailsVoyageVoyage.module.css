@@ -12,12 +12,15 @@
       justify-content: space-around;
       flex-direction: row;
       align-items: space-around;
+      
     }
     
     .textContainer {
       width: 50vw;
-      height: 80vh;
+      height: 90vh;
       /* border: 1px solid black; */
+      
+      
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -29,7 +32,7 @@
     }
     
     .imgContainer {
-      width: 45vw;
+      width: 40vw;
       height: 83vh;
       display: flex;
       flex-direction: column;
@@ -147,11 +150,15 @@
       margin-top: 3vh;
       color: darkorange;
     }
+    .titlesAPI {
+      
+      color: darkorange;
+    }
     .resume {
       width: 45vw;
       font-size: 20px;
       margin-top: 3vh;
-    
+     
       text-align: justify;
     }
     .itemList {
@@ -160,6 +167,7 @@
       font-size: 20px;
       text-align: justify;
       margin-top: 5vh;
+      
     }
     
     .items {
@@ -182,6 +190,27 @@
     .link:hover{
       color: darkgreen
     }
+    @media only screen and (min-width: 1100px){
+      .titlesAPI {
+        color: darkorange;
+        width: 20vw;
+        margin-bottom: 1vh;
+       
+      
+  
+       
+      }
+      .itemList {
+        width: 40vw;
+        height: 40vh;
+        font-size: 20px;
+        text-align: justify;
+        margin-top: 5vh;
+      
+      }
+      
+      
+    }
     
     @media only screen and (max-width: 490px){
       .resume{
@@ -189,6 +218,15 @@
         font-size: 20px;
         margin-top: 3vh;
         text-align: justify;
+       
+      }
+      .titlesAPI {
+        color: darkorange;
+        width: 80vw;
+        margin-bottom: 1vh;
+        margin-top: 20vh;
+        text-align: center;
+  
        
       }
       .itemList {
@@ -238,6 +276,7 @@
       }
      
     }
+  
     @media only screen and (max-width: 413px){
       .resume{
         width: 90%;
@@ -254,12 +293,25 @@
         margin-top: 5vh;
         line-height: 1.5;
       }
+      .titlesAPI {
+     
+        color: darkorange;
+        width: 80vw;
+        margin-bottom: 1vh;
+        margin-top: 20vh;
+        text-align: center;
+        
+      
+  
+       
+      }
       .API {
         width: 80%;
         height: 0vh;
         margin-top: 8vh;
         margin-bottom: 0vh;
         font-size: 18px;
+        
       }
     
     }
@@ -302,6 +354,15 @@
         
       
       
+      }
+      .titlesAPI {
+        color: darkorange;
+        width: 80vw;
+        margin-bottom: 1vh;
+        margin-top: 20vh;
+        text-align: center;
+  
+       
       }
       .API {
         width: 80%;

@@ -55,7 +55,7 @@ export default function DetailsVoyageVoyage() {
               className={styles.API}
               style={{ textAlign: "center", marginBottom: "6vh" }}
             >
-              <h2 className={styles.titles} style={{ marginTop: "20vh" }}>
+              <h2 className={styles.titlesAPI} >
                 API utilisée
               </h2>
               <Link
