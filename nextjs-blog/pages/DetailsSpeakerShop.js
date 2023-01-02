@@ -9,7 +9,7 @@ export default function DetailsSpeakerShop() {
       <Header />
       <div className={styles.main}>
         <div className={styles.firstContainer} >
-          <div className={styles.textContainer} style={{'height': '60vh'}}>
+          <div className={styles.textContainer} style={{'height': '70vh'}}>
             <h2 className={styles.titles}>Résumé</h2>
             <p className={styles.resume}>
               SpeakerShop est une application React web frontend qui reproduit

@@ -12,7 +12,7 @@ export default function DetailsFaceUp() {
       <Header />
       <div className={styles.main}>
         <div className={styles.firstContainer}>
-          <div className={styles.textContainer} style={{height: '130vh'}}>
+          <div className={styles.textContainer} style={{height: '32em'}}>
             <h2 className={styles.titles}>Résumé</h2>
             <p className={styles.resume} >
               FaceUp est une app mobile développée en React Native. Elle de se

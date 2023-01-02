@@ -1,14 +1,69 @@
+/* Hub */
+@media only screen and (min-width: 1100px){}
+/* tel landscape */
+@media only screen and (max-width: 920px) and (orientation: landscape) {}
+
+/* petit hub et tablettes */
+@media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {}
+/* iPad Pro */
+@media only screen and (min-width: 1020px) and (max-width: 1100px){}
+/* tel portrait */
+@media only screen and (max-width: 490px){}
+/* Fold */
+@media only screen and (max-width: 300px){}
+
+
 @media only screen and (min-width: 1100px){
 .main{
   width: 100vw;
   height: 87vh;
   /* position: absolute; */
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   background-image: url('https://c8.alamy.com/compfr/2fk1b5w/motif-d-esquisse-des-feuilles-tropicales-fond-de-feuillage-de-palmier-dore-dessine-a-la-main-motif-vectoriel-de-feuillage-de-foret-tropicale-exotique-sans-couture-2fk1b5w.jpg');
   background-size: cover;
 }
+}
+@media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {
+  .main{
+    width: 100vw;
+    /* height: 87vh; */
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url('https://c8.alamy.com/compfr/2fk1b5w/motif-d-esquisse-des-feuilles-tropicales-fond-de-feuillage-de-palmier-dore-dessine-a-la-main-motif-vectoriel-de-feuillage-de-foret-tropicale-exotique-sans-couture-2fk1b5w.jpg');
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: landscape) {
+  .main{
+    width: 100vw;
+    height: 87vh;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url('https://c8.alamy.com/compfr/2fk1b5w/motif-d-esquisse-des-feuilles-tropicales-fond-de-feuillage-de-palmier-dore-dessine-a-la-main-motif-vectoriel-de-feuillage-de-foret-tropicale-exotique-sans-couture-2fk1b5w.jpg');
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .main{
+    width: 110vw;
+    height: 150vh;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://c8.alamy.com/compfr/2fk1b5w/motif-d-esquisse-des-feuilles-tropicales-fond-de-feuillage-de-palmier-dore-dessine-a-la-main-motif-vectoriel-de-feuillage-de-foret-tropicale-exotique-sans-couture-2fk1b5w.jpg');
+    background-size: cover;
+    font-size: 12px;
+  }
 }
 @media only screen and (max-width: 490px){
   .main{
@@ -40,6 +95,32 @@
   }
  
 }
+@media only screen and (max-height: 300px){
+  .main{
+    width: 110vw;
+    height: 180vh;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://c8.alamy.com/compfr/2fk1b5w/motif-d-esquisse-des-feuilles-tropicales-fond-de-feuillage-de-palmier-dore-dessine-a-la-main-motif-vectoriel-de-feuillage-de-foret-tropicale-exotique-sans-couture-2fk1b5w.jpg');
+    background-size: cover;
+    font-size: 12px;
+   
+
+
+  }
+}
+.hardSkillsFront:hover{
+  transform: scale(1.25);}
+
+  .hardSkillsBack:hover{
+    transform: scale(1.25);
+  }
+  .softSkills:hover{
+    transform: scale(1.25);
+  }
+
 @media only screen and (min-width: 1100px){
 .hardSkillsFront{
   width: 25vw;
@@ -92,19 +173,179 @@
   margin: 0;
 }
 }
-.hardSkillsFront:hover{
-  transform: scale(1.25);}
+@media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {
+  .hardSkillsFront{
+    width: 45vw;
+    height: 55vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+  }
+  
+  
+  .hardSkillsBack{
+    width: 45vw;
+    height: 55vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .softSkills{
+    width: 45vw;
+    height: 55vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+   
+    margin-bottom: 12vh;
+  }
+  .softSkillsList{
+    line-height: 2;
+    list-style:circle;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: landscape) {
+  .hardSkillsFront{
+    width: 25vw;
+    height: 65vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+  }
+  
+  
+  .hardSkillsBack{
+    width: 25vw;
+    height: 65vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .softSkills{
+    width: 25vw;
+    height: 65vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+   
+   
+  }
+  .softSkillsList{
+    line-height: 2;
+    list-style:circle;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 920px) and (orientation: landscape) {
+  .hardSkillsFront{
+    width: 28vw;
+    height: 95vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+    
+  }
+  
+  
+  .hardSkillsBack{
+    width: 28vw;
+    height: 95vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out
+  }
+  
+  .softSkills{
+    width: 28vw;
+    height: 95vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out
+  }
+  
+  .softSkillsList{
+    line-height: 2;
+    list-style:circle;
+    margin: 0;
+  }
+}
 
-  .hardSkillsBack:hover{
-    transform: scale(1.25);
-  }
-  .softSkills:hover{
-    transform: scale(1.25);
-  }
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 490px){
   .hardSkillsFront{
     width: 70vw;
-    height: 60vh;
+    height: 80vh;
     border: 2px solid orange;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -152,6 +393,8 @@
     list-style:circle;
     margin: 0;
   }
+ 
+  
 }
 @media only screen and (max-width: 300px){
   .hardSkillsFront{
@@ -204,5 +447,56 @@
     list-style:circle;
     margin: 0;
     margin-left: 18vw;
+  }
+}
+@media only screen and (max-height: 300px){
+  .hardSkillsFront{
+    width: 30vw;
+    height: 125vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+  
+  }
+  .hardSkillsBack{
+    width: 30vw;
+    height: 125vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+  
+  }
+  .softSkills{
+    width: 30vw;
+    height: 125vh;
+    border: 2px solid orange;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.85);
+    transition: all 0.3s ease-out;
+
+  }
+  .softSkillsList{
+    line-height: 2;
+    list-style:circle;
+    margin: 0;
+    margin-left: 10vw;
   }
 }

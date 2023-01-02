@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1000px){
 .footer {
   width: 100vw;
   height: 5vh;
@@ -9,13 +10,28 @@
   margin-bottom: 1vh;
   position: absolute;
 }
+}
 
 .footerText {
   font-size: 14px;
 }
-@media only screen and (max-width: 490px) and (orientation: portrait){
+@media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {
+  .footer {
+    width: 100vw;
+    height: 5vh;
+    /* margin-top: 87vh; */
+    background-color: rgba(205, 143, 35, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 920px) and (orientation: landscape){
   .footer {
     width: 110vw;
+    height: 9vh;
 
     /* margin-top: 87vh; */
     background-color: rgba(205, 143, 35, 0.1);
@@ -23,6 +39,20 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 1vh;
+   
+  }
+}
+@media only screen and (max-width: 490px) and (orientation: portrait){
+  .footer {
+    width: 100vw;
+
+    /* margin-top: 87vh; */
+    background-color: rgba(205, 143, 35, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1vh; */
+    
    
   }
 }
@@ -48,17 +78,4 @@
 .gitHubLink:hover {
   color: orange;
   cursor: pointer;
-}
-@media only screen and (max-width: 920px) and (orientation: landscape){
-  .footer {
-    width: 110vw;
-
-    /* margin-top: 87vh; */
-    background-color: rgba(205, 143, 35, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1vh;
-   
-  }
 }

@@ -51,7 +51,153 @@
       align-items: center;
     }
     }
+    @media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {
+      .main {
+        background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+        background-size: cover;
+      }
     
+      .firstContainer {
+        width: 100vw;
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: space-around;
+        margin: 0
+      }
+    
+      .textContainer {
+        width: 42vw;
+        height: 120vh;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        backdrop-filter: blur(10px);
+        margin-top: 2vh;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        font-size: 25px;
+      }
+    
+      .imgContainer {
+       width: 50vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        border-radius: 20px;
+      }
+      .imgContainer2 {
+        height: 100vh;
+        margin-top: 32vh;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+    @media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: landscape) {
+      .main {
+        background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+        background-size: cover;
+      }
+    
+      .firstContainer {
+        width: 100vw;
+        /* height: 87vh; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: space-around;
+        margin: 0
+      }
+    
+      .textContainer {
+        width: 42vw;
+        height: 120vh;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        backdrop-filter: blur(10px);
+        margin-top: 2vh;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        font-size: 20px;
+      }
+    
+      .imgContainer {
+       width: 50vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        border-radius: 20px;
+      }
+      .imgContainer2 {
+        height: 150vh;
+        /* margin-top: 28vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+    @media only screen and (max-width: 920px) and (orientation: landscape) {
+      .main {
+        width: 110vw;
+        background-image: url("https://img.freepik.com/vecteurs-libre/fond-espace-copie-feuilles-vertes_79603-1055.jpg?w=2000");
+        background-size: cover;
+      }
+      .firstContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: space-around;
+        
+      }
+      .textContainer {
+        width: 65vw;
+        height: 250vh;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+       
+        align-items: center;
+        backdrop-filter: blur(10px);
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        border-radius: 20px;
+        border: 1px solid transparent;
+      }
+      .imgContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: space-around;
+        margin-top: 2vh;
+        border-radius: 20px;
+      }
+      .imgContainer2 {
+        height: 150vh;
+        margin-top: 5vw;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
     @media only screen and (max-width: 490px){
       .main {
         /* width: 160vw; */
@@ -211,7 +357,155 @@
       
       
     }
-    
+    @media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {
+      .titles {
+        margin-top: 3vh;
+        color: darkorange;
+      }
+      .resume {
+        width: 35vw;
+        font-size: 20px;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+      
+        text-align: justify;
+      }
+      .itemList {
+        width: 35vw;
+        height: 50vh;
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 5vh;
+      }
+      .image {
+        width: 50vw;
+        height: 25vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        margin-left: -4vw;
+      }
+      .img {
+     
+        width: 80vw;
+        height: 40vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+       
+      }
+      .APIandDeploy {
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .API {
+        margin-top: 3vh;
+        width: 50vw;
+        margin-bottom: 2vh;
+        text-align: center;
+      }
+    }
+    @media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: landscape) {
+      .titles {
+        margin-top: 3vh;
+        color: darkorange;
+      }
+      .resume {
+        width: 35vw;
+        font-size: 20px;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+      
+        text-align: justify;
+      }
+      .itemList {
+        width: 35vw;
+        height: 50vh;
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 5vh;
+      }
+      .image {
+        width: 50vw;
+        height: 35vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        margin-left: -4vw;
+      }
+      .img {
+     
+        width: 80vw;
+        height: 60vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+       
+      }
+      .APIandDeploy {
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .API {
+        margin-top: 3vh;
+        width: 50vw;
+        margin-bottom: 2vh;
+        text-align: center;
+      }
+    }
+    @media only screen and (max-width: 920px) and (orientation: landscape) {
+      .titles {
+        margin-top: 3vh;
+        color: darkorange;
+      }
+      .resume {
+        width: 60vw;
+        font-size: 18px;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+      
+        text-align: justify;
+      }
+      .itemList {
+        width: 60vw;
+        height: 50vh;
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 5vh;
+      }
+      .image {
+        width: 42vw;
+        height: 50vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        margin-left: 2vw;
+      }
+      .img {
+     
+        width: 80vw;
+        height: 90vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+      }
+      .APIandDeploy {
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .API {
+        margin-top: 64vh;
+        width: 50vw;
+        margin-bottom: 8vh;
+        text-align: center;
+      }
+    }
     @media only screen and (max-width: 490px){
       .resume{
         width: 80%;

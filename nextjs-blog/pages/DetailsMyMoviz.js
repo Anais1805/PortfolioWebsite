@@ -70,7 +70,7 @@ export default function DetailsMyMoviz() {
             <img className={styles.image} src="../MyMoviz1.png" />
             <img
               className={styles.image}
-              style={{ width: "25%", height: "50%" }}
+              style={{ width: "35%", height: "45%" }}
               src="../MyMoviz2.png"
             />
           </div>

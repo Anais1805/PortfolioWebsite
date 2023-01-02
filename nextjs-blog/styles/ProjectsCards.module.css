@@ -12,6 +12,55 @@
     background-color: transparent;
     perspective: 1000px;
   }
+  @media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {
+    .projectCards{
+      width: 40vw;
+      height: 30vh;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin: 3vh 2vw;
+    }
+   
+    .projects{
+      width: 40vw;
+      height: 30vh;
+      background-color: transparent;
+      perspective: 1000px;
+    }
+  }
+  @media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: landscape) {
+    .projectCards{
+      width: 40vw;
+      height: 30vh;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin: 3vh 2vw;
+    }
+   
+    .projects{
+      width: 30vw;
+      height: 30vh;
+      background-color: transparent;
+      perspective: 1000px;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) and (orientation: landscape) {
+    .projectCards{
+      width: 40vw;
+      height: 70vh;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin: 3vh 2vw;
+    }
+   
+    .projects{
+      width: 40vw;
+      height: 68vh;
+      background-color: transparent;
+      perspective: 1000px;
+    }
+  }
   @media only screen and (max-width: 490px){
    
     .projects{
@@ -83,7 +132,22 @@
    
     
   }}
-
+  @media only screen and (min-width: 500px) and (max-width: 1100px) and (orientation: portrait) {
+    .projectsBack{
+      width: 40vw;
+      height: 60vh;
+      font-size: 20px;
+      transform: rotateY(180deg);
+      background-color: rgba(255, 166, 0, 0.4);
+      backdrop-filter: blur(10px);
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
   .projectsBack{
     width: 40vw;
     height: 60vh;
