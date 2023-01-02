@@ -1,14 +1,14 @@
 .projectCards{
-    width: 20vw;
-    height: 30vh;
+    width: 25vw;
+    height: 35vh;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin: 3vh 2vw;
   }
  
   .projects{
-    width: 20vw;
-    height: 30vh;
+    width: 25vw;
+    height: 35vh;
     background-color: transparent;
     perspective: 1000px;
   }
