@@ -154,6 +154,43 @@
       
     }
   }
+  @media only screen and (min-width: 1000px) and (max-height: 600px)  {
+    .main{
+      width: 100vw;
+    height: 350vh;
+      background-image: url('https://img.freepik.com/vecteurs-libre/fond-feuilles-feuille-metallique_79603-946.jpg?w=2000');
+      background-size: cover;
+      overflow: hidden;
+    }
+    .schoolProjects{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-left: 12vw;
+      
+  
+    }
+    .sectionTitles{
+      width: 70vw;
+      margin-top: 3vh;
+     
+      text-align: center;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+      bottom: 8vh;
+      color: black;
+      backdrop-filter: blur(4px);
+      border-radius: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      
+    }
+  }
 @media only screen and (max-width: 490px){
   .main{
     width: 100vw;
